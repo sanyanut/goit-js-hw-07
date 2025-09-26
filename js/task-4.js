@@ -9,6 +9,7 @@ function handleSubmit(e) {
 
   if (email === "" || password === "") {
     alert("All form fields must be filled in");
+    return;
   }
 
   console.log({ email, password });

@@ -30,7 +30,7 @@ const gallery = document.querySelector(".gallery");
 function markup() {
   let markupString = "";
   images.forEach((item) => {
-    markupString += `<img src='${item.url}' alt='${item.alt}' />`;
+    markupString += `<li><img src='${item.url}' alt='${item.alt}' /></li>`;
   });
   return markupString;
 }
